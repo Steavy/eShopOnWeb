@@ -1,3 +1,7 @@
+stap1: maak eerst een resourcegroup aan in azure portal
+stap2: az ad sp create-for-rbac --name GH-Action-eshoponweb --role contributor --scopes /subscriptions/SUBSCRIPTION-ID/resourceGroups/RESOURCE-GROUP --sdk-auth
+stap3: onder settings, secrest een AZ?URE_CREDENDITALS naam maken en de json van bovenstaande plakken
+
 [![Build Status](https://github.com/dotnet-architecture/eShopOnWeb/workflows/eShopOnWeb%20Build%20and%20Test/badge.svg)](https://github.com/dotnet-architecture/eShopOnWeb/actions)
 
 # Microsoft eShopOnWeb ASP.NET Core Reference Application
